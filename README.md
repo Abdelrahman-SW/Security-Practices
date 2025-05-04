@@ -1,12 +1,6 @@
 
 <h3 align="center" > 🛡️ --- An Android App In Kotlin & Jetpack Compose For Security Practices --- 🛡️</h3>
 
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/>   
-<img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/>  
-<img src="https://github.com/devicons/devicon/blob/master/icons/jetpackcompose/jetpackcompose-original.svg" alt="jetpack compose" width="40" height="40"/> 
-</p>
-
 <h2 align="left">About :</h2>
 
 This project serves as a comprehensive demonstration of best security practices in Android development. It showcases the implementation of various techniques to secure data, including:
