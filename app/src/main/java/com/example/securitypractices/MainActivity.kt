@@ -37,11 +37,12 @@ import com.example.securitypractices.screens.DbWithSqlCipher
 import com.example.securitypractices.screens.DigitalSignature
 import com.example.securitypractices.screens.HMAC_Algorithm
 import com.example.securitypractices.screens.HashingPassword
+import com.example.securitypractices.screens.NetworkScreen
 import com.example.securitypractices.screens.RSA_Algorithm
 
 class MainActivity : ComponentActivity() {
     private lateinit var db: PersonDbSqlCipher
-    private val NUMBER_OF_EXAMPLES = 6
+    private val NUMBER_OF_EXAMPLES = 7
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         db = PersonDbSqlCipher.getEncryptedDb(this)
@@ -74,12 +75,13 @@ class MainActivity : ComponentActivity() {
                             Spacer(modifier = Modifier.height(16.dp))
 
                             when (page) {
-                                0 -> AES_Algorithm()
-                                1 -> RSA_Algorithm()
-                                2 -> HashingPassword()
-                                3 -> HMAC_Algorithm()
-                                4 -> DigitalSignature()
-                                5 -> DbWithSqlCipher(db = db)
+                                0 -> NetworkScreen()
+                                1 -> AES_Algorithm()
+                                2 -> RSA_Algorithm()
+                                3 -> HashingPassword()
+                                4 -> HMAC_Algorithm()
+                                5 -> DigitalSignature()
+                                6 -> DbWithSqlCipher(db = db)
                             }
                         }
                     }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false" useSystemCertificates="false">
+        <domain includeSubdomains="true">typicode.com</domain>
+<!--
+try to change the pin to something else wrong
+u will get java.security.cert.CertificateException: Pin verification failed
+-->
+
+<!--        <pin-set>-->
+<!--            <pin digest="SHA-256">Mh7ufr6Yepdwv4IGnMFCJcVG9P0YeIqzaMr+euJo0/U=</pin>-->
+<!--        </pin-set>-->
+
+<!--Invalid certificate will break the connection -->
+<!--        <trust-anchors>-->
+<!--            <certificates src="@raw/invalid_cert"/>-->
+<!--        </trust-anchors>-->
+
+
+
+<!--        <trust-anchors>-->
+<!--            <certificates src="@raw/my_cert"/>-->
+<!--        </trust-anchors>-->
+    </domain-config>
+</network-security-config>
