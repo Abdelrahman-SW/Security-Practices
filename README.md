@@ -5,6 +5,8 @@
 
 This project serves as a comprehensive demonstration of best security practices in Android development. It showcases the implementation of various techniques to secure data, including:
 
+🔒 Secure Communication (SSL / TLS ) : Network Security Config ,Trust Manager ,Custom SSL Factory ,Certificate Pinner ,Custom Ok Http
+
 🔒 SQLCipher: Encrypted local database storage.
 
 🔒 AES (Advanced Encryption Standard): Symmetric encryption for secure data transmission.
